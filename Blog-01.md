@@ -1,4 +1,4 @@
-# The significance of union and intersection types in Typescript.
+# The significance of Union and Intersection types in Typescript.
 
 Union and Intersection types are important features in TypeScript that help ensure type safety in your code.
 

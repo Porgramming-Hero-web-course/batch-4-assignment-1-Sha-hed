@@ -1,12 +1,13 @@
 {
     //Start
+
     interface Profile {
         name: string,
         age: number,
         email: string
     }
 
-    const updateProfile = (first: object, second: object):object => {
+    const updateProfile =<T,X> (first: T, second: X):T => {
         return { ...first, ...second}
     }
 
